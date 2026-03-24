@@ -8,12 +8,12 @@ const ProductsGallery = () => {
   const categories = ['All', 'Raw Silk', 'Charmeuse', 'Chiffon', 'Georgette', 'Organza'];
 
   const products = [
-    { id: 1, title: 'Midnight Blue Charmeuse', category: 'Charmeuse', image: 'https://images.unsplash.com/photo-1550508129-07bc36aeb91d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-    { id: 2, title: 'Pearlescent Organza', category: 'Organza', image: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-    { id: 3, title: 'Golden Raw Silk', category: 'Raw Silk', image: 'https://images.unsplash.com/photo-1584346133934-a3afd2a33c4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-    { id: 4, title: 'Blush Pink Chiffon', category: 'Chiffon', image: 'https://images.unsplash.com/photo-1596455607563-ad6193f76b17?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-    { id: 5, title: 'Emerald Green Georgette', category: 'Georgette', image: 'https://images.unsplash.com/photo-1594968973184-9040a5a79963?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-    { id: 6, title: 'Ivory Crêpe de Chine', category: 'Raw Silk', image: 'https://images.unsplash.com/photo-1620799139834-6b8f844fbe6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
+    { id: 1, title: 'Midnight Blue Charmeuse', category: 'Charmeuse', image: 'https://img.freepik.com/free-photo/royal-blue-silk-fabric-with-smooth-texture_23-2151966041.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80' },
+    { id: 2, title: 'Pearlescent Organza', category: 'Organza', image: 'https://img.freepik.com/free-photo/blue-fabric-motion-texture-background_53876-96690.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80' },
+    { id: 3, title: 'Golden Raw Silk', category: 'Raw Silk', image: 'https://img.freepik.com/free-photo/smooth-elegant-golden-fabric-material-texture_23-2148402299.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80' },
+    { id: 4, title: 'Blush Pink Chiffon', category: 'Chiffon', image: 'https://img.freepik.com/premium-photo/abstract-pink-flowing-fabric-texture-background_1001890-5737.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80' },
+    { id: 5, title: 'Emerald Green Georgette', category: 'Georgette', image: 'https://img.freepik.com/free-vector/luxury-emerald-green-silk-velvet-fabric-texture_107791-35053.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80' },
+    { id: 6, title: 'Ivory Crêpe de Chine', category: 'Raw Silk', image: 'https://img.freepik.com/premium-photo/cotton-fabric-different-colors-waffle-towel-without-pattern-macro_273893-6281.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80' },
   ];
 
   const filteredProducts = activeCategory === 'All' 

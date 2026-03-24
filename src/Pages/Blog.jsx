@@ -2,9 +2,9 @@ import React from 'react';
 
 const Blog = () => {
   const posts = [
-    { title: "The Journey of Mulberry Silk: From Cocoon to Couture", category: "History & Process", desc: "Explore the fascinating metamorphosis and the intricate process that turns a brilliant cocoon into the world's finest fabric.", img: "https://images.unsplash.com/photo-1584281729095-2ac5d9c72ae9?auto=format&fit=crop&q=80&w=600" },
-    { title: "Sustainable Silk: The Rise of Ethical Production", category: "Sustainability", desc: "How modern silk farming is embracing eco-friendly practices to protect biodiversity while maintaining unparalleled quality.", img: "https://images.unsplash.com/photo-1594911765275-c54378f14260?auto=format&fit=crop&q=80&w=600" },
-    { title: "Trending Silk Fashion for Summer 2026", category: "Fashion & Trends", desc: "Discover how top designers are incorporating breathable, lightweight silk weaves into their upcoming summer collections.", img: "https://images.unsplash.com/photo-1601366567117-0db71faeeef4?auto=format&fit=crop&q=80&w=600" }
+    { title: "The Journey of Mulberry Silk: From Cocoon to Couture", category: "History & Process", desc: "Explore the fascinating metamorphosis and the intricate process that turns a brilliant cocoon into the world's finest fabric.", img: "https://img.freepik.com/premium-photo/creamy-soft-satin-fabric-texture_713660-15123.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80" },
+    { title: "Sustainable Silk: The Rise of Ethical Production", category: "Sustainability", desc: "How modern silk farming is embracing eco-friendly practices to protect biodiversity while maintaining unparalleled quality.", img: "https://img.freepik.com/free-photo/colorful-knitted-fabric-background_58702-1784.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80" },
+    { title: "Trending Silk Fashion for Summer 2026", category: "Fashion & Trends", desc: "Discover how top designers are incorporating breathable, lightweight silk weaves into their upcoming summer collections.", img: "https://img.freepik.com/premium-photo/beautiful-abstract-silk-concept-with-copy-space_926199-2710957.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80" }
   ];
 
   return (

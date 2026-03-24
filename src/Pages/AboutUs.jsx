@@ -42,7 +42,7 @@ const AboutUs = () => {
           <div className="order-2 lg:order-1 relative h-[500px] w-full group">
             <div className="absolute inset-0 bg-amber-200 rounded-[40px] translate-x-4 translate-y-4 opacity-50 group-hover:translate-x-6 group-hover:translate-y-6 transition-transform duration-500"></div>
             <img 
-              src="https://images.unsplash.com/photo-1596455607563-ad6193f76b17?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+              src="https://img.freepik.com/premium-photo/pile-different-fabrics-isolated-white_392895-134216.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80" 
               alt="Silk weaving machinery" 
               className="absolute inset-0 w-full h-full object-cover rounded-[40px] shadow-2xl"
             />

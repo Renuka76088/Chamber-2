@@ -28,18 +28,18 @@ const Products = () => {
 
   // Base mock database
   const baseProducts = [
-    { title: "Premium Mulberry Silk Roll", category: "Mulberry Silk", price: 850, unit: "meter", moq: 50, img: "https://images.unsplash.com/photo-1601366567117-0db71faeeef4?auto=format&fit=crop&q=80&w=800", inStock: true },
-    { title: "Golden Tussar Weave", category: "Tussar Silk", price: 1200, unit: "meter", moq: 30, img: "https://images.unsplash.com/photo-1594911765275-c54378f14260?auto=format&fit=crop&q=80&w=800", inStock: true },
-    { title: "Peace Eri Silk Fabric", category: "Eri Silk", price: 950, unit: "meter", moq: 40, img: "https://images.unsplash.com/photo-1592636500583-057bf2c050bc?auto=format&fit=crop&q=80&w=800", inStock: true },
-    { title: "Assam Muga Heritage", category: "Muga Silk", price: 2500, unit: "meter", moq: 20, img: "https://images.unsplash.com/photo-1620310243118-a6d12f3844db?auto=format&fit=crop&q=80&w=800", inStock: false },
-    { title: "Raw Silk Dobby Texture", category: "Raw Silk", price: 650, unit: "meter", moq: 100, img: "https://images.unsplash.com/photo-1584281729095-2ac5d9c72ae9?auto=format&fit=crop&q=80&w=800", inStock: true },
-    { title: "Sheer Chiffon Silk", category: "Chiffon Silk", price: 550, unit: "meter", moq: 100, img: "https://images.unsplash.com/photo-1528246736453-6059f1d0725a?auto=format&fit=crop&q=80&w=800", inStock: true },
-    { title: "Heavy Georgette Drape", category: "Georgette Silk", price: 700, unit: "meter", moq: 50, img: "https://images.unsplash.com/photo-1596455607563-ad6193f76b17?auto=format&fit=crop&q=80&w=800", inStock: true },
-    { title: "Lush Velvet Silk Red", category: "Velvet Silk", price: 1800, unit: "meter", moq: 25, img: "https://images.unsplash.com/photo-1579227114347-15d08fc37cae?auto=format&fit=crop&q=80&w=800", inStock: true },
-    { title: "Bridal Jacquard Silk", category: "Jacquard Silk", price: 2100, unit: "meter", moq: 20, img: "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&q=80&w=800", inStock: true },
-    { title: "Classic Mulberry White", category: "Mulberry Silk", price: 800, unit: "meter", moq: 50, img: "https://images.unsplash.com/photo-1584346133934-a3afd2a33c4c?auto=format&fit=crop&q=80&w=800", inStock: true },
-    { title: "Tussar Silk Charcoal", category: "Tussar Silk", price: 1150, unit: "meter", moq: 30, img: "https://images.unsplash.com/photo-1620310243118-a6d12f3844db?auto=format&fit=crop&q=80&w=800", inStock: true },
-    { title: "Eri Silk Natural Dye", category: "Eri Silk", price: 980, unit: "meter", moq: 40, img: "https://images.unsplash.com/photo-1594911765275-c54378f14260?auto=format&fit=crop&q=80&w=800", inStock: true },
+    { title: "Premium Mulberry Silk Roll", category: "Mulberry Silk", price: 850, unit: "meter", moq: 50, img: "https://img.freepik.com/premium-photo/beautiful-aster-flowers-silk-background_392895-108421.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80", inStock: true },
+    { title: "Golden Tussar Weave", category: "Tussar Silk", price: 1200, unit: "meter", moq: 30, img: "https://img.freepik.com/free-photo/close-up-velvet-texture_23-2149305958.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80", inStock: true },
+    { title: "Peace Eri Silk Fabric", category: "Eri Silk", price: 950, unit: "meter", moq: 40, img: "https://img.freepik.com/free-photo/close-up-elegant-golden-material_23-2148495620.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80", inStock: true },
+    { title: "Assam Muga Heritage", category: "Muga Silk", price: 2500, unit: "meter", moq: 20, img: "https://img.freepik.com/premium-photo/drapery-fabric-with-stripes_926199-3223496.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80", inStock: false },
+    { title: "Raw Silk Dobby Texture", category: "Raw Silk", price: 650, unit: "meter", moq: 100, img: "https://img.freepik.com/premium-photo/closeup-soft-creamy-white-golden-brown-thread_204719-57416.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80", inStock: true },
+    { title: "Sheer Chiffon Silk", category: "Chiffon Silk", price: 550, unit: "meter", moq: 100, img: "https://img.freepik.com/premium-photo/delicate-peach-white-fabric_861748-20080.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80", inStock: true },
+    { title: "Heavy Georgette Drape", category: "Georgette Silk", price: 700, unit: "meter", moq: 50, img: "https://img.freepik.com/free-photo/organic-texture-white-fabric_23-2151932225.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80", inStock: true },
+    { title: "Lush Velvet Silk Red", category: "Velvet Silk", price: 1800, unit: "meter", moq: 25, img: "https://img.freepik.com/premium-photo/velvet-velvet-silk_53876-658087.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80", inStock: true },
+    { title: "Bridal Jacquard Silk", category: "Jacquard Silk", price: 2100, unit: "meter", moq: 20, img: "https://img.freepik.com/free-vector/purple-cloth-background-with-ornaments_1048-5055.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80", inStock: true },
+    { title: "Classic Mulberry White", category: "Mulberry Silk", price: 800, unit: "meter", moq: 50, img: "https://img.freepik.com/premium-photo/creamy-swirls-elegance-soft-silk-texture-abstract-fabric-pattern-luxurious-textile-folds-gentle-waves-white-fine_506134-75932.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80", inStock: true },
+    { title: "Tussar Silk Charcoal", category: "Tussar Silk", price: 1150, unit: "meter", moq: 30, img: "https://img.freepik.com/premium-photo/extreme-closeup-macro-photography-intricate-weave-pattern-piece-silk-fabric_1145402-3847.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80", inStock: true },
+    { title: "Eri Silk Natural Dye", category: "Eri Silk", price: 980, unit: "meter", moq: 40, img: "https://img.freepik.com/premium-photo/abstract-colorful-fabric-texture-background_34836-761.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80", inStock: true },
   ];
 
   // Generate a massive database (48 items) by cloning to fake 100+ items scale

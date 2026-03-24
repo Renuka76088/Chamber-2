@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, Sparkles, TrendingUp, Package, Users, MapPin, Phone, Mail } from 'lucide-react';
+import MySilkImage from'../assets/Silk.avif'
 
 const LandingPage = () => {
   return (
@@ -42,11 +43,12 @@ const LandingPage = () => {
 
           <div className="relative hidden lg:block h-[600px] w-full mt-12 lg:mt-0">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[450px] h-[580px] rounded-[40px] overflow-hidden bg-white border border-gray-100 p-2 shadow-2xl z-10">
-              <img
-                src="https://images.unsplash.com/photo-1601366567083-05ecfb45da3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-                alt="Rose Gold Velvet Silk"
-                className="w-full h-full object-cover rounded-[32px] transition-transform duration-700 hover:scale-105"
-              />
+             <img
+      // --- AB YAHAN LOCAL IMAGE USE HO RAHI HAI ---
+      src={MySilkImage} 
+      alt="H.C. Parekh Authentic Silk" // Alt text badal dein
+      className="w-full h-full object-cover rounded-[32px] transition-transform duration-700 hover:scale-105"
+    />
             </div>
 
             <div className="absolute bottom-16 -left-8 bg-white/80 backdrop-blur-md p-4 rounded-2xl flex items-center gap-4 shadow-xl border border-gray-100 z-20 hover:-translate-y-1 transition-transform duration-300">
@@ -77,7 +79,7 @@ const LandingPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-gray-50 group">
               <img
-                src="https://images.unsplash.com/photo-1596455607386-3532f414cb2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src="https://img.freepik.com/free-photo/rose-gold-velvet-fabric_23-2151943843.jpg?t=st=1774256943~exp=1774260543~hmac=ffd9cf7b22e93861c4b75d5c313345937c6e7165bc2b14acb8b0d64b80462ed6"
                 alt="Silk weaving loom"
                 className="w-full h-[500px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -117,9 +119,9 @@ const LandingPage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: 'Mulberry Silk', img: 'https://images.unsplash.com/photo-1579227114347-15d08fc37cae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-              { name: 'Pure Tussar Silk', img: 'https://plus.unsplash.com/premium_photo-1675806655180-2aee37d1faec?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-              { name: 'Silk Organza', img: 'https://images.unsplash.com/photo-1596455607386-3532f414cb2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' }
+              { name: 'Mulberry Silk', img: 'https://img.freepik.com/free-photo/artificial-materials-texture-close-up_23-2151901051.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80' },
+              { name: 'Pure Tussar Silk', img: 'https://img.freepik.com/free-photo/close-up-velvet-texture_23-2149305929.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80' },
+              { name: 'Silk Organza', img: 'https://img.freepik.com/premium-photo/delicate-white-silk-fabric-with-luminous-color-palette-organza-plain-sheet_899449-122098.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80' }
             ].map((product, idx) => (
               <div key={idx} className="group rounded-3xl overflow-hidden bg-white shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col">
                 <div className="h-64 overflow-hidden relative border-b border-gray-100">
@@ -195,7 +197,7 @@ const LandingPage = () => {
             {/* Blog Post 1 */}
             <Link to="/blog" className="group rounded-3xl overflow-hidden bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col sm:flex-row">
               <div className="sm:w-2/5 h-64 sm:h-auto overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1584227391910-c53ccbf82e7d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Blog 1" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <img src="https://img.freepik.com/premium-photo/elegant-charmeuse-plain-sheet-white-gold-with-photorealistic-still-life-design_899449-122355.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80" alt="Blog 1" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               </div>
               <div className="p-8 flex flex-col justify-center sm:w-3/5">
                 <span className="text-amber-600 text-xs font-bold uppercase mb-3 tracking-wide">Market Trends</span>
@@ -210,7 +212,7 @@ const LandingPage = () => {
             {/* Blog Post 2 */}
             <Link to="/blog" className="group rounded-3xl overflow-hidden bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col sm:flex-row">
               <div className="sm:w-2/5 h-64 sm:h-auto overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1596455607386-3532f414cb2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Blog 2" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <img src="https://img.freepik.com/premium-photo/stack-multi-colored-satin-fabric-blue-background-space-text_83196-1323.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80" alt="Blog 2" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               </div>
               <div className="p-8 flex flex-col justify-center sm:w-3/5">
                 <span className="text-amber-600 text-xs font-bold uppercase mb-3 tracking-wide">Material Guide</span>
