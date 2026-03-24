@@ -5,12 +5,12 @@ const MediaGallery = () => {
   const [activeTab, setActiveTab] = useState('photos');
   
   const photos = [
-    "https://images.unsplash.com/photo-1601366567117-0db71faeeef4?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1594911765275-c54378f14260?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1592636500583-057bf2c050bc?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1620310243118-a6d12f3844db?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1584281729095-2ac5d9c72ae9?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1528659556828-568eb2ddb2bd?auto=format&fit=crop&q=80&w=800"
+    "https://img.freepik.com/premium-photo/textile-factory-workers-are-sewing-colorful-fabrics-machines-blurred-background_1103944-15409.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80",
+    "https://img.freepik.com/premium-photo/different-fabrics-sewing-material_118124-218757.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80",
+    "https://img.freepik.com/premium-photo/industrial-sewing-machines-textile-factory_713660-30286.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80",
+    "https://img.freepik.com/premium-photo/textile-industry-weaving-warping_1028938-198873.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80",
+    "https://img.freepik.com/premium-photo/colorful-fabric-rolls-stacked-shelves-textile-store-various-patterns-colors_607477-2692.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80",
+    "https://img.freepik.com/premium-photo/modern-dyeing-facility-where-fabrics-are-treated-with-environmentally-friendly-processes_1314467-227159.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80"
   ];
 
   const videos = [
