@@ -53,13 +53,26 @@ const Header = () => {
         <div className="flex justify-between items-center h-24">
           
           {/* Logo Section */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-full bg-[#B79A63] flex items-center justify-center text-white font-serif text-xl font-bold shadow-lg shadow-[#B79A63]/30 group-hover:scale-110 transition-transform duration-500">
-              H
+           <Link to="/" className="z-[130] flex items-center no-underline">
+            <div 
+              style={{
+                background: 'linear-gradient(135deg, rgba(113, 127, 224, 0.15) 0%, rgba(113, 127, 224, 0.05) 100%)',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.08), inset 0 1px 1px rgba(255, 255, 255, 0.3)'
+              }}
+              className="w-[42px] h-[42px] md:w-[48px] md:h-[48px] border-2 border-[#C5A27D] rounded-xl flex items-center justify-center mr-3 shrink-0 transition-all duration-300 hover:scale-105"
+            >
+              <span className="text-[#f59e0b] font-black text-2xl md:text-3xl leading-none">P</span>
             </div>
-            <span className="font-serif text-2xl font-bold text-[#5C4A2A] tracking-wide">
-              H.C. Parekh Silk
-            </span>
+
+            <div className="flex flex-col justify-center">
+              <h1 className="flex items-center text-xl md:text-2xl font-black tracking-tighter uppercase leading-none">
+                <span className="text-[#4A4238]">PAREKH</span>
+                <span className="text-[#f59e0b]">SILK</span>
+              </h1>
+              <span className="text-[9px] md:text-[11px] font-bold tracking-[0.3em] text-[black] uppercase mt-1">
+                SURAT • GJ
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

@@ -14,11 +14,28 @@ const Footer = () => {
           
           {/* Brand Col */}
           <div className="space-y-6">
-            <Link to="/" className="flex items-center gap-2 group inline-block">
-              <span className="font-serif text-3xl font-bold tracking-wider text-[#FDFBF7]">
-                H.C. Parekh Silk
-              </span>
-            </Link>
+              {/* Logo Section */}
+                      <Link to="/" className="z-[130] flex items-center no-underline">
+                       <div 
+                         style={{
+                           background: 'linear-gradient(135deg, rgba(113, 127, 224, 0.15) 0%, rgba(113, 127, 224, 0.05) 100%)',
+                           boxShadow: '0 4px 12px rgba(0, 0, 0, 0.08), inset 0 1px 1px rgba(255, 255, 255, 0.3)'
+                         }}
+                         className="w-[42px] h-[42px] md:w-[48px] md:h-[48px] border-2 border-[#C5A27D] rounded-xl flex items-center justify-center mr-3 shrink-0 transition-all duration-300 hover:scale-105"
+                       >
+                         <span className="text-[#f59e0b] font-black text-2xl md:text-3xl leading-none">P</span>
+                       </div>
+           
+                       <div className="flex flex-col justify-center">
+                         <h1 className="flex items-center text-xl md:text-2xl font-black tracking-tighter uppercase leading-none">
+                           <span className="text-[#fff]">PAREKH</span>
+                           <span className="text-[#f59e0b]">SILK</span>
+                         </h1>
+                         <span className="text-[9px] md:text-[11px] font-bold tracking-[0.3em] text-[white] uppercase mt-1">
+                           SURAT • GJ
+                         </span>
+                       </div>
+                     </Link>
             <p className="text-[#E6DBC4] text-sm leading-relaxed">
               Experience the ethereal beauty of 100% pure silk. Woven with passion, crafted with heritage. Your destination for premium textile solutions.
             </p>
@@ -70,7 +87,7 @@ const Footer = () => {
               </li>
               <li className="flex gap-3 text-sm text-[#E6DBC4] items-center">
                 <Phone size={20} className="text-[#B79A63] shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>+91 1111 11111</span>
               </li>
               <li className="flex gap-3 text-sm text-[#E6DBC4] items-center">
                 <Mail size={20} className="text-[#B79A63] shrink-0" />
