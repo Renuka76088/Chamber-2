@@ -27,7 +27,7 @@ const Footer = () => {
                        </div>
            
                        <div className="flex flex-col justify-center">
-                         <h1 className="flex items-center text-xl md:text-2xl font-black tracking-tighter uppercase leading-none">
+                         <h1 className="flex items-center text-2xl gap-2  md:text-2xl font-black uppercase leading-none">
                            <span className="text-[#fff]">PAREKH</span>
                            <span className="text-[#f59e0b]">SILK</span>
                          </h1>
@@ -100,7 +100,7 @@ const Footer = () => {
 
         <div className="border-t border-[#8C7345]/40 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[#E6DBC4] text-xs">
-            © {new Date().getFullYear()} H.C. Parekh Silk | Crafted with Elegance
+            © {new Date().getFullYear()} Parekh Silk | Crafted with Elegance
           </p>
           <p className="text-[#E6DBC4]/60 text-xs">
             Designed for the love of textiles

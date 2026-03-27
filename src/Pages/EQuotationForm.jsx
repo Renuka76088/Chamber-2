@@ -45,7 +45,7 @@ const EQuotationForm = () => {
           </h1>
           <p className="max-w-xl text-gray-200 text-[17px] leading-relaxed font-light">
             Provide detailed pricing and technical specifications for bulk silk materials, 
-            manufacturing machinery, or B2B consultancy services to H.C. Parekh Silk Fabric.
+            manufacturing machinery, or B2B consultancy services to Parekh Silk Fabric.
           </p>
         </div>
       </section>
@@ -130,7 +130,7 @@ const EQuotationForm = () => {
               <p className="text-[17px] leading-relaxed text-gray-700 font-light italic">
                 "I hereby declare that the prices quoted above are true and competitive to the best of my 
                 knowledge. All documents uploaded are authentic. I understand that the procurement process 
-                involves a formal technical review for final selection by H.C. Parekh Silk Fabric."
+                involves a formal technical review for final selection by Parekh Silk Fabric."
               </p>
               <div className="mt-8 flex items-center gap-4">
                  <input type="checkbox" className="w-5 h-5 accent-amber-600 cursor-pointer rounded" id="agree-quote" />
@@ -151,7 +151,7 @@ const EQuotationForm = () => {
           </form>
           
           <div className="bg-gray-50 py-6 text-center border-t border-gray-100">
-             <p className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.5em]">H.C. Parekh Silk Fabric • Procurement Division</p>
+             <p className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.5em]">Parekh Silk Fabric • Procurement Division</p>
           </div>
         </div>
       </div>

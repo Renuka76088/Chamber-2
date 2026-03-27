@@ -34,7 +34,7 @@ const Header = () => {
     { name: 'Products Gallery', path: '/products-gallery' },
     { name: 'Our Management', path: '/management' },
     { name: 'Our Textile Associates', path: '/associates' },
-    { name: 'Trade Enquiry (e-Form)', path: '/enquiry' },
+    { name: 'Trade Enquiry ', path: '/enquiry' },
     { name: 'e-Quotation', path: '/e-quotation' },
     { name: 'e-Auction', path: '/e-auction' },
     { name: 'Tender & Contract', path: '/tender-contract' },
@@ -65,10 +65,10 @@ const Header = () => {
             </div>
 
             <div className="flex flex-col justify-center">
-              <h1 className="flex items-center text-xl md:text-2xl font-black tracking-tighter uppercase leading-none">
-                <span className="text-[#4A4238]">PAREKH</span>
-                <span className="text-[#f59e0b]">SILK</span>
-              </h1>
+            <h1 className="flex items-center gap-2 text-xl md:text-2xl font-black  uppercase leading-none">
+  <span className="text-[#4A4238]">PAREKH</span>
+  <span className="text-[#f59e0b]">SILK</span>
+</h1>
               <span className="text-[9px] md:text-[11px] font-bold tracking-[0.3em] text-[black] uppercase mt-1">
                 SURAT • GJ
               </span>
@@ -131,7 +131,7 @@ const Header = () => {
             ))}
 
             <Link to="/enquiry" className="ml-2 px-6 py-2.5 rounded-full bg-[#5C4A2A] text-white text-sm font-medium hover:bg-[#8C7345] transition-colors shadow-md hover:shadow-lg hover:-translate-y-0.5 transform duration-300">
-              Get an Estimate
+              Get a Quote
             </Link>
           </nav>
 
@@ -177,7 +177,7 @@ const Header = () => {
           ))}
           
           <Link to="/enquiry" className="mt-4 mx-4 px-6 py-3 text-center rounded-xl bg-[#5C4A2A] text-white font-medium">
-            Get an Estimate
+            Get a Quote
           </Link>
         </div>
       </div>

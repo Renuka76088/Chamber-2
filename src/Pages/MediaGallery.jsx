@@ -15,7 +15,7 @@ const MediaGallery = () => {
 
   const videos = [
     { title: "The Art of Jacquard Weaving", img: "https://images.unsplash.com/photo-1520633190412-1fccbece5e73?auto=format&fit=crop&q=80&w=800" },
-    { title: "H.C. Parekh Silk's Sustainable Farms", img: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&q=80&w=800" },
+    { title: "Parekh Silk's Sustainable Farms", img: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&q=80&w=800" },
     { title: "Paris Fashion Week 2026 Showcase", img: "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&q=80&w=800" }
   ];
 

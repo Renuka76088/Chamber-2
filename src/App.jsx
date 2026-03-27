@@ -21,10 +21,12 @@ import CustomerReview from './Pages/CustomerReview';
 import Appointment from './Pages/Appointment';
 import MediaGallery from './Pages/MediaGallery';
 import Chatbot from './Components/Chatbot';
+import ScrollToTop from '../../ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
+       <ScrollToTop />
       {/* Wrapper to ensure clean white background and consistent text color */}
       <div className="bg-white min-h-screen text-[#333333] font-sans selection:bg-[#B79A63] selection:text-white relative">
         <Header />
@@ -57,7 +59,7 @@ function App() {
         
         <Footer />
         
-        {/* Global Chatbot for H.C. Parekh Silk Fabric */}
+        {/* Global Chatbot for Parekh Silk Fabric */}
         <Chatbot />
       </div>
     </BrowserRouter>

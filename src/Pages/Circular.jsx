@@ -15,7 +15,7 @@ const Circular = () => {
           <h1 className="text-4xl md:text-5xl font-serif text-[#5C4A2A] mb-6">Official Circulars</h1>
           <p className="text-[#8C7345] text-lg">
             Stay informed with the latest updates, industry guidelines, and official announcements 
-            from H.C. Parekh Silk and associated regulatory bodies.
+            from Parekh Silk and associated regulatory bodies.
           </p>
         </div>
 

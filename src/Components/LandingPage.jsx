@@ -22,7 +22,7 @@ const LandingPage = () => {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-serif text-gray-900 leading-tight">
-              H.C. Parekh <br />
+              Parekh <br />
               <span className="text-amber-600">Silk Fabric.</span>
             </h1>
 
@@ -46,7 +46,7 @@ const LandingPage = () => {
              <img
       // --- AB YAHAN LOCAL IMAGE USE HO RAHI HAI ---
       src={MySilkImage} 
-      alt="H.C. Parekh Authentic Silk" // Alt text badal dein
+      alt="Parekh Authentic Silk" // Alt text badal dein
       className="w-full h-full object-cover rounded-[32px] transition-transform duration-700 hover:scale-105"
     />
             </div>
@@ -88,10 +88,10 @@ const LandingPage = () => {
             <div className="space-y-8">
               <div>
                 <h4 className="text-amber-600 font-semibold tracking-wider uppercase text-sm mb-2">Our Legacy</h4>
-                <h2 className="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">Masters of the Silk <br /> Since 1995.</h2>
+                <h2 className="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">Masters of the Silk <br /> Since 2007.</h2>
               </div>
               <p className="text-gray-600 leading-relaxed font-light text-lg">
-                At H.C. Parekh Silk Fabric, we bring decades of heritage to modern textile manufacturing. We specialize in producing massive volumes of authentic, unadulterated silk with absolute precision. Our state-of-the-art looming facilities combined with traditional techniques make us the gold standard in the wholesale silk market.
+                At Parekh Silk Fabric, we bring decades of heritage to modern textile manufacturing. We specialize in producing massive volumes of authentic, unadulterated silk with absolute precision. Our state-of-the-art looming facilities combined with traditional techniques make us the gold standard in the wholesale silk market.
               </p>
               <ul className="space-y-4 text-gray-700 font-medium">
                 <li className="flex items-center gap-3"><ShieldCheck className="text-amber-500" size={20} /> Certified authentic silk material</li>

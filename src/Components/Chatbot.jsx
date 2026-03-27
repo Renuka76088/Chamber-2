@@ -4,7 +4,7 @@ import { MessageSquare, X, Send, Bot } from 'lucide-react';
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { id: 1, text: "Hello! Welcome to H.C. Parekh Silk Fabric. How can I help you regarding our wholesale silk collections today?", sender: 'ai' }
+    { id: 1, text: "Hello! Welcome to Parekh Silk Fabric. How can I help you regarding our wholesale silk collections today?", sender: 'ai' }
   ]);
   const [input, setInput] = useState('');
   const messagesEndRef = useRef(null);
@@ -31,15 +31,15 @@ const Chatbot = () => {
       const lowerInput = input.toLowerCase();
       
       const responses = [
-        { keywords: ['hi', 'hello', 'hey', 'namaste', 'morning', 'evening'], reply: "Hello! Welcome to H.C. Parekh Silk Fabric. How can I assist you with our wholesale silk collections today?" },
+        { keywords: ['hi', 'hello', 'hey', 'namaste', 'morning', 'evening'], reply: "Hello! Welcome to Parekh Silk Fabric. How can I assist you with our wholesale silk collections today?" },
         { keywords: ['wholesale', 'bulk', 'b2b', 'quantity', 'minimum', 'moq'], reply: "Our minimum order quantity (MOQ) varies by fabric. Standard Mulberry silk rolls require a 50-meter MOQ. We provide robust B2B factory pricing for bulk orders over 500 meters." },
         { keywords: ['price', 'cost', 'rate', 'how much', 'pricing', 'rupee'], reply: "As a wholesale manufacturer, our rates are exceptionally competitive. Pure Mulberry Silk starts at ₹800/meter. You can check our 'Product' page for a detailed catalog or submit an e-Quotation for bulk pricing." },
         { keywords: ['mulberry', 'raw', 'tussar', 'muga', 'eri', 'chiffon', 'georgette', 'jacquard', 'velvet', 'types', 'product', 'catalog', 'catalogue'], reply: "We specialize in premium pure silks including Mulberry, Tussar, Muga, Raw Silk, Chiffon, Georgette, and Jacquard weaves. Check our 'Product' section in the Header to browse our 150+ varieties." },
         { keywords: ['contact', 'address', 'visit', 'location', 'phone', 'email', 'call', 'where'], reply: "You can reach our wholesale dispatch team at wholesale@hcparekhsilk.com or call +91-9876543210. Our factory is located in Surat, Gujarat. We'd love to schedule a visit!" },
-        { keywords: ['quality', 'pure', 'fabric', 'tc', 'thread', 'authentic', 'real', 'fake'], reply: "H.C. Parekh strictly guarantees 100% pure, authentic silk. Every yard undergoes intensive quality checks (average 144 TC for standard rolls) before wholesale dispatch." },
+        { keywords: ['quality', 'pure', 'fabric', 'tc', 'thread', 'authentic', 'real', 'fake'], reply: "Parekh strictly guarantees 100% pure, authentic silk. Every yard undergoes intensive quality checks (average 144 TC for standard rolls) before wholesale dispatch." },
         { keywords: ['shipping', 'delivery', 'transport', 'export', 'time', 'when', 'days'], reply: "We handle global shipping and PAN-India secure transport. Standard bulk orders take 10-15 business days for dispatch. For logistics, we rely on insured company transporters." },
         { keywords: ['tender', 'auction', 'contract', 'e-auction', 'quotation'], reply: "We run corporate rate contracts and e-Auctions for industrial textile machinery. Please visit our 'Pages' dropdown to access the e-Quotation or Tender forms." },
-        { keywords: ['owner', 'founder', 'ceo', 'management', 'who are you', 'company'], reply: "H.C. Parekh Silk Fabric is a legacy institution led by our visionary Founder & CEO Aditya Parekh. We focus purely on preserving heritage weaving and industrial textile scaling." },
+        { keywords: ['owner', 'founder', 'ceo', 'management', 'who are you', 'company'], reply: "Parekh Silk Fabric is a legacy institution led by our visionary Founder & CEO Aditya Parekh. We focus purely on preserving heritage weaving and industrial textile scaling." },
         { keywords: ['custom', 'dye', 'color', 'pattern', 'design', 'customization'], reply: "Yes! We offer massive customization for B2B bulk orders including custom dyeing, specific Pantone matching, and bespoke Jacquard pattern weaving. Contact Sales directly for requirements." },
       ];
 
@@ -51,7 +51,7 @@ const Chatbot = () => {
       } else {
         // Advanced randomized fallback
         const fallbacks = [
-            "I'm an AI assistant for H.C. Parekh Wholesale. Could you clarify if you're looking for pricing, product catalogs, or contact info?",
+            "I'm an AI assistant for Parekh Wholesale. Could you clarify if you're looking for pricing, product catalogs, or contact info?",
             "I specialize in answering B2B wholesale queries about our Silk catalog. Could you rephrase your question?",
             "That's a very interesting question! For highly specific queries, please reach out to our team at the 'Contact Us' page.",
             "I can assist you with wholesale prices, MOQ, shipping, and fabric quality. What specifically would you like to know?"
@@ -79,7 +79,7 @@ const Chatbot = () => {
               <Bot size={22} className="text-white" />
             </div>
             <div>
-              <h3 className="font-serif font-semibold text-lg leading-tight">H.C. Parekh AI</h3>
+              <h3 className="font-serif font-semibold text-lg leading-tight">Parekh AI</h3>
               <p className="text-xs text-white/90 font-light flex items-center gap-1">
                 <span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block animate-pulse"></span>
                 Active now

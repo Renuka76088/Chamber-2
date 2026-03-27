@@ -11,7 +11,7 @@ const AboutUs = () => {
           <h1 className="text-4xl md:text-5xl font-serif text-gray-900 mb-6">Our Legacy of Threads</h1>
           <div className="w-24 h-1 bg-amber-500 mx-auto mb-8 opacity-80 rounded-full"></div>
           <p className="text-lg text-gray-600 font-light leading-relaxed">
-            For generations, H.C. Parekh Silk has been at the forefront of crafting the finest textiles. We blend traditional artistry with modern sophistication to bring you fabrics that tell a story.
+            For generations, Parekh Silk has been at the forefront of crafting the finest textiles. We blend traditional artistry with modern sophistication to bring you fabrics that tell a story.
           </p>
         </div>
 

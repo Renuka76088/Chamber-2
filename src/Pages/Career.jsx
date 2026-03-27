@@ -12,7 +12,7 @@ const Career = () => {
     <div className="pt-24 min-h-screen bg-[#FDFBF7]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in-up">
-          <h1 className="text-4xl md:text-5xl font-serif text-[#5C4A2A] mb-6">Careers at H.C. Parekh Silk</h1>
+          <h1 className="text-4xl md:text-5xl font-serif text-[#5C4A2A] mb-6">Careers at Parekh Silk</h1>
           <p className="text-[#8C7345] text-lg">
             Weave your future with us. Join a team dedicated to preserving the heritage of silk 
             while innovating for a sustainable tomorrow.
