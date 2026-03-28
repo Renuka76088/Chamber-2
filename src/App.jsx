@@ -21,7 +21,7 @@ import CustomerReview from './Pages/CustomerReview';
 import Appointment from './Pages/Appointment';
 import MediaGallery from './Pages/MediaGallery';
 import Chatbot from './Components/Chatbot';
-import ScrollToTop from '../../ScrollToTop';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
   return (
