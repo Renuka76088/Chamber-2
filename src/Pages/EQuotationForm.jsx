@@ -147,7 +147,7 @@ const EQuotationForm = () => {
                  Submit Now <Send size={20} />
               </button>
             </div>
-         
+      
           </form>
           
           <div className="bg-gray-50 py-6 text-center border-t border-gray-100">
