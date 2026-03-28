@@ -14,9 +14,9 @@ const MediaGallery = () => {
   ];
 
   const videos = [
-    { title: "The Art of Jacquard Weaving", img: "https://images.unsplash.com/photo-1520633190412-1fccbece5e73?auto=format&fit=crop&q=80&w=800" },
-    { title: "Parekh Silk's Sustainable Farms", img: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&q=80&w=800" },
-    { title: "Paris Fashion Week 2026 Showcase", img: "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&q=80&w=800" }
+    { title: "The Art of Jacquard Weaving", img: "https://img.freepik.com/premium-photo/midsection-woman-working_719722-1317.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80" },
+    { title: "Parekh Silk's Sustainable Farms", img: "https://img.freepik.com/premium-photo/midsection-woman-weaving-loom_1617776-801.jpg" },
+    { title: "Paris Fashion Week 2026 Showcase", img: "https://img.freepik.com/free-vector/realistic-golden-show-performance-fabric-gold-theatre-curtain-royal-luxury-tablecloth-3d-vector-illustration_1441-3907.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80" }
   ];
 
   return (
